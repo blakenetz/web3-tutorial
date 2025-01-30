@@ -1,0 +1,27 @@
+{
+  "name": "web3-tutorial",
+  "version": "1.0.0",
+  "description": "Following tutorial from https://www.dappuniversity.com/articles/web3-js-intro",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types --env-file=.env index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakenetz/web3-tutorial.git"
+  },
+  "keywords": [
+    "web3"
+  ],
+  "author": "blake netzeband <blake.netzeband@gmail.com> (https://blakenetzeband.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakenetz/web3-tutorial/issues"
+  },
+  "homepage": "https://github.com/blakenetz/web3-tutorial#readme",
+  "dependencies": {
+    "web3": "^4.16.0"
+  }
+}
